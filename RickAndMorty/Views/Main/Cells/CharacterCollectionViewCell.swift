@@ -38,7 +38,7 @@ final class CharacterCollectionViewCell: UICollectionViewCell {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
         image.image = .location
-        image.heightAnchor.constraint(equalToConstant: 12).isActive = true
+        image.heightAnchor.constraint(equalToConstant: 15).isActive = true
         image.widthAnchor.constraint(equalTo: image.heightAnchor).isActive = true
         return image
     }()
